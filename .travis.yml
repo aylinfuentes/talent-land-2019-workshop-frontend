@@ -1,8 +1,10 @@
 language: node_js
 node_js:
   - "7"
+  
 before_script:
-  - nmp install
+  - npm install
+  
 script:
   - echo "Antes de la construcción"
-  - nmp build
+  - npm build
