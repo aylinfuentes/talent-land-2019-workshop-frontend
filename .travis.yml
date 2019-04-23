@@ -7,4 +7,4 @@ node_js:
   - "7"
 script:
   - echo "Antes de la construcción"
-  - "npm build"
+  - "nmp build"
